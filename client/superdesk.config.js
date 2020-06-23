@@ -13,7 +13,6 @@ module.exports = function(grunt) {
         ],
 
         importApps: [
-            '../index',
             'superdesk-planning',
         ],
 
@@ -38,5 +37,9 @@ module.exports = function(grunt) {
             planning: true,
             assignments: true,
         },
+
+        enabledExtensions: {
+            planning: 1
+        }
     };
 };
