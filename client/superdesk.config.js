@@ -10,11 +10,13 @@ module.exports = function(grunt) {
 
         apps: [
             'superdesk-planning',
+            'superdesk.analytics',
         ],
 
         importApps: [
             '../index',
             'superdesk-planning',
+            'superdesk-analytics',
         ],
 
         view: {
@@ -37,6 +39,7 @@ module.exports = function(grunt) {
         workspace: {
             planning: true,
             assignments: true,
+            analytics: true,
         },
     };
 };
